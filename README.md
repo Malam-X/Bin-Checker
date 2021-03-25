@@ -21,3 +21,5 @@ python main.py
 ## Requirements
 - pip3 install requests
 - python 3.7++
+<br><br>
+### Youtube: https://youtu.be/9x4Z372L2_4
