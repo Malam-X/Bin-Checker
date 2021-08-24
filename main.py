@@ -19,7 +19,7 @@ class main(object):
     def main(cls, x):
         x = {
             'author': 'DR4G0N5',
-            'url': 'https://bins-su-api.now.sh/api/'+x,
+            'url': 'https://bin-check-dr4g.herokuapp.com/api/'+x,
             'version': '0.1.1'
         }
         req = requests.get(x['url'])
