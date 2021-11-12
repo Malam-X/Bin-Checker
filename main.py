@@ -18,7 +18,7 @@ class main(object):
     @classmethod
     def main(cls, x):
         x = {
-            'author': 'DR4G0N5',
+            'author': 'Vivalaraza',
             'url': 'https://bin-check-dr4g.herokuapp.com/api/'+x,
             'version': '0.1.1'
         }
@@ -47,15 +47,15 @@ class main(object):
             'Country': full_data['country']
         }
         print("""
- [+] Author: {}
- [+] Version: {}""".format(xx['author'],xx['version']))
+ ⟿ Author: {}
+ ⟿ Version: {}""".format(xx['author'],xx['version']))
         print("""
- [+] Bin: {}
- [+] vendor: {}
- [+] Type: {}
- [+] Level: {}
- [+] Bank: {}
- [+] Country: {}""".format(data['Bin'],
+ ⟿ Bin: {}
+ ⟿ vendor: {}
+ ⟿ Type: {}
+ ⟿ Level: {}
+ ⟿ Bank: {}
+ ⟿ Country: {}""".format(data['Bin'],
  data['Vendor'],
  data['Type'],
  data['Level'],
